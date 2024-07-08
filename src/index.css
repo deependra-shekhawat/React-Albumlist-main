@@ -1,0 +1,52 @@
+/* index.css */
+
+/* Background gradient for the entire app */
+body {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #f8f9fa;
+  }
+  
+  /* Light green card background color */
+  .card {
+    background-color: #d4edda; /* Light green color */
+    border: 1px solid #c3e6cb; /* Slightly darker green border */
+  }
+  
+  /* Spacing between edit and delete buttons */
+  .btn-group .btn {
+    margin-right: 10px; /* Add margin to right for spacing */
+  }
+  
+  .btn-group .btn:last-child {
+    margin-right: 2rem; /* Remove right margin from last button */
+  }
+  
+  /* Additional padding and margin for inputs */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Center content inside card */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-control {
+    margin-top: 10px;
+  }
+  
+  /* Style for navbar brand */
+  .navbar-brand .first-half,
+  .navbar-brand .next-half {
+    font-weight: bold;
+    margin: 0.5rem;
+  }
+  
